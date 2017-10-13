@@ -8,7 +8,7 @@ def new
         redirect_to '/sessions/new'
     else
         session[:name] = params[:name]
-        redirect_to '/' 
+        redirect_to '/'
     end
   end
 
